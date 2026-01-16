@@ -8,9 +8,10 @@ namespace cosmosdbDemo
 {
     public class Student
     {
-        public int StudentID { get; set; }
-        public string Name { get; set; }
-        public string Course { get; set; }
-        public int Age { get; set; }
+        public string id { get; set; }
+        public string studentid { get; set; }
+        public string name { get; set; }
+        public string course { get; set; }
+        public int age { get; set; }
     }
 }
