@@ -2,7 +2,7 @@
 using cosmosdbDemo;
 using Microsoft.Azure.Cosmos;
 
-//AccountEndpoint=https://cosmosdbsri.documents.azure.com:443/;AccountKey=TYqo7yNVBLD0MJhYbqJe5Jc3u1iB5TEfU76PRKEq3HqNAZJbltpHDsf1TTqYgIK1WDKu1dM36QTzACDb31K7yg==;
+
 string cn = "";
 CosmosClient client = new CosmosClient(cn);
 Container container = client.GetContainer("TrainingDB", "Students");
